@@ -17,4 +17,4 @@ elif len(numbers) % 2 == 0:
     print( (numbers[int( (len(numbers)/2)-1 )] + numbers[int(len(numbers)/2)]) / 2)
 
 else:
-    print(numbers[int( (len(numbers)+1) / 2 )])
+    print(numbers[int( (len(numbers)-1) / 2 )])
