@@ -11,7 +11,9 @@ while True:
     else:
         break
 
-if len(numbers) % 2 == 0:
+if len(numbers) == 1:
+    print(numbers[0])
+elif len(numbers) % 2 == 0:
     print( (numbers[int( (len(numbers)/2)-1 )] + numbers[int(len(numbers)/2)]) / 2)
 
 else:
